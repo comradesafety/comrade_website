@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/comrade_website/',
+  base: process.env.VERCEL ? '/' : '/comrade_website/',
   plugins: [react()],
   server: {
     port: 5173,
