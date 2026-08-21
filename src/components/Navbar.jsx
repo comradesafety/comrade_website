@@ -31,7 +31,7 @@ export default function Navbar() {
             className="flex items-center rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine-500"
           >
             <img
-              src="/assets/logo/comrade-logo.png"
+              src={`${import.meta.env.BASE_URL}assets/logo/comrade-logo.png`}
               alt="Comrade — Comrades Born to Defy"
               className={`w-auto object-contain transition-all duration-300 ${
                 isScrolled ? 'h-16 sm:h-20' : 'h-20 sm:h-24 md:h-28'

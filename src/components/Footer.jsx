@@ -31,7 +31,7 @@ export default function Footer() {
               to="/"
               className="inline-flex w-fit rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine-500"
             >
-              <img src="/assets/logo/comrade-logo.png" alt="Comrade — Comrades Born to Defy" className="h-20 w-auto sm:h-24 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}assets/logo/comrade-logo.png`} alt="Comrade — Comrades Born to Defy" className="h-20 w-auto sm:h-24 object-contain" />
             </Link>
             <p className="mt-4 max-w-[26ch] text-sm leading-relaxed text-ink-500">
                Personal safety, reimagined for the way you actually live.
